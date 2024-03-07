@@ -40,7 +40,7 @@ if ("${VERSION}" STREQUAL "")
 	if (GIT_VERSION_FOUND)
 		set(VERSION "unknown")
 	else (GIT_VERSION_FOUND)
-		set(VERSION "${GIT_VERSION}")
+		set(VERSION "Leeroy ${GIT_VERSION}")
 	endif (GIT_VERSION_FOUND)
 
 	set(VERSION_NOHASH "dev")

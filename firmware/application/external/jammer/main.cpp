@@ -38,7 +38,7 @@ __attribute__((section(".external_app.app_jammer.application_information"), used
     /*.header_version = */ CURRENT_HEADER_VERSION,
     /*.app_version = */ VERSION_MD5,
 
-    /*.app_name = */ "Jammer",
+    /*.app_name = */ "Generator",
     /*.bitmap_data = */ {
         0xE0,
         0x07,

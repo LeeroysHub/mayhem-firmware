@@ -99,7 +99,7 @@ class JammerView : public View {
 
     void focus() override;
 
-    std::string title() const override { return "Jammer TX"; };
+    std::string title() const override { return "Generator"; };
 
    private:
     NavigationView& nav_;
